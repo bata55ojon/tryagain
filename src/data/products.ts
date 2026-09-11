@@ -85,7 +85,7 @@ products[0]!.subProducts = Array.from({ length: 10 }, (_, i) => ({
 
 export const getProduct = (id: string) => products.find((p) => p.id === id);
 
-export const TELEGRAM_USER = "Fullfolderselrr";
+export const TELEGRAM_USER = "OFFCONTENTXS";
 export const TELEGRAM_URL = `https://t.me/${TELEGRAM_USER}`;
 
 export const telegramCheckoutUrl = (
